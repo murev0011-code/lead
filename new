@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmação de Agendamento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Pixel Meta (base) -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;
+      n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);
+      t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '651941351340071'); 
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=651941351340071&noscript=1"/>
+  </noscript>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 80px 20px;
+      background: #0D47A1;
+      color: #ffffff;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    a.whatsapp {
+      display: inline-block;
+      padding: 18px 30px;
+      background-color: #25D366;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: background 0.3s ease;
+    }
+
+    a.whatsapp:hover {
+      background-color: #1ebe57;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 26px;
+      }
+      p {
+        font-size: 16px;
+      }
+      a.whatsapp {
+        font-size: 18px;
+        padding: 15px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>✅ Horário Agendado com Sucesso!</h1>
+  <p>Para confirmar seu bate-papo, clique no botão abaixo e envie a mensagem automática pelo WhatsApp.</p>
+
+  <a class="whatsapp" href="https://wa.me/5519978085538?text=acabei%20de%20agendar%20o%20hor%C3%A1rio%20do%20meu%20bate%20papo%20sobre%20tirzepatida." target="_blank">
+    Confirmar no WhatsApp
+  </a>
+</body>
+</html>
