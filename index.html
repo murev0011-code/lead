@@ -1,70 +1,96 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 AppleColorEmoji;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab560
-\pard\pardeftab560\slleading20\partightenfactor0
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmação de Agendamento</title>
 
-\f0\fs26 \cf0 <!DOCTYPE html>\
-<html lang="pt-br">\
-<head>\
-\'a0\'a0<meta charset="UTF-8">\
-\'a0\'a0<title>Confirma\'e7\'e3o de Agendamento</title>\
-\'a0\'a0<meta name="viewport" content="width=device-width, initial-scale=1.0">\
-\
-\'a0\'a0<!-- Pixel Meta (base) -->\
-\'a0\'a0<script>\
-\'a0\'a0\'a0\'a0!function(f,b,e,v,n,t,s)\
-\'a0\'a0\'a0\'a0\{if(f.fbq)return;n=f.fbq=function()\{n.callMethod?\
-\'a0\'a0\'a0\'a0n.callMethod.apply(n,arguments):n.queue.push(arguments)\};\
-\'a0\'a0\'a0\'a0if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\
-\'a0\'a0\'a0\'a0n.queue=[];t=b.createElement(e);t.async=!0;\
-\'a0\'a0\'a0\'a0t.src=v;s=b.getElementsByTagName(e)[0];\
-\'a0\'a0\'a0\'a0s.parentNode.insertBefore(t,s)\}(window, document,'script',\
-\'a0\'a0\'a0\'a0'https://connect.facebook.net/en_US/fbevents.js');\
-\
-\'a0\'a0\'a0\'a0fbq('init', '651941351340071'); \
-\'a0\'a0</script>\
-\'a0\'a0<noscript><img height="1" width="1" style="display:none"\
-\'a0\'a0\'a0\'a0src="https://www.facebook.com/tr?id=651941351340071&noscript=1"\
-\'a0\'a0/></noscript>\
-\
-\'a0\'a0<style>\
-\'a0\'a0\'a0\'a0body \{\
-\'a0\'a0\'a0\'a0\'a0\'a0font-family: Arial, sans-serif;\
-\'a0\'a0\'a0\'a0\'a0\'a0text-align: center;\
-\'a0\'a0\'a0\'a0\'a0\'a0padding: 50px;\
-\'a0\'a0\'a0\'a0\'a0\'a0background: #f8f8f8;\
-\'a0\'a0\'a0\'a0\'a0\'a0color: #333;\
-\'a0\'a0\'a0\'a0\}\
-\'a0\'a0\'a0\'a0h1 \{\
-\'a0\'a0\'a0\'a0\'a0\'a0color: #2e7d32;\
-\'a0\'a0\'a0\'a0\}\
-\'a0\'a0\'a0\'a0a.whatsapp \{\
-\'a0\'a0\'a0\'a0\'a0\'a0display: inline-block;\
-\'a0\'a0\'a0\'a0\'a0\'a0margin-top: 20px;\
-\'a0\'a0\'a0\'a0\'a0\'a0padding: 15px 25px;\
-\'a0\'a0\'a0\'a0\'a0\'a0background: #25D366;\
-\'a0\'a0\'a0\'a0\'a0\'a0color: white;\
-\'a0\'a0\'a0\'a0\'a0\'a0text-decoration: none;\
-\'a0\'a0\'a0\'a0\'a0\'a0font-size: 18px;\
-\'a0\'a0\'a0\'a0\'a0\'a0border-radius: 8px;\
-\'a0\'a0\'a0\'a0\'a0\'a0font-weight: bold;\
-\'a0\'a0\'a0\'a0\}\
-\'a0\'a0\'a0\'a0a.whatsapp:hover \{\
-\'a0\'a0\'a0\'a0\'a0\'a0background: #1ebe57;\
-\'a0\'a0\'a0\'a0\}\
-\'a0\'a0</style>\
-</head>\
-<body>\
-\'a0\'a0<h1>
-\f1 \uc0\u9989 
-\f0  Seu hor\'e1rio foi agendado com sucesso!</h1>\
-\'a0\'a0<p>Para confirmar, clique no bot\'e3o abaixo e envie a mensagem autom\'e1tica no WhatsApp.</p>\
-\
-\'a0\'a0<a class="whatsapp" href="https://wa.me/5519978085538?text=Ol%C3%A1%2C%20acabei%20de%20agendar%20um%20hor%C3%A1rio%2C%20estou%20enviando%20essa%20mensagem%20para%20confirmar%20meu%20bate%20papo." target="_blank">\
-\'a0\'a0\'a0\'a0Confirmar no WhatsApp\
-\'a0\'a0</a>\
-</body>\
-</html>}
+  <!-- Pixel Meta -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;
+      n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '651941351340071');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=651941351340071&noscript=1"/>
+  </noscript>
+
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #0D47A1; /* azul médico */
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    /* Botão (opcional) */
+    a.whatsapp {
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    a.whatsapp:hover {
+      background-color: #1ebe57;
+    }
+  </style>
+
+  <script>
+    // Redirecionamento automático para WhatsApp após 1 segundo
+    setTimeout(function() {
+      window.location.href = "https://wa.me/5519978085538?text=acabei%20de%20agendar%20o%20hor%C3%A1rio%20do%20meu%20bate%20papo%20sobre%20tirzepatida.";
+    }, 1000);
+  </script>
+</head>
+<body>
+  <h1>✅ Horário Agendado!</h1>
+  <p>Você será redirecionado automaticamente para o WhatsApp para confirmar seu bate-papo.</p>
+  <a class="whatsapp" href="https://wa.me/5519978085538?text=acabei%20de%20agendar%20o%20hor%C3%A1rio%20do%20meu%20bate%20papo%20sobre%20tirzepatida." target="_blank">
+    Confirmar no WhatsApp
+  </a>
+</body>
+</html>
