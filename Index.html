@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmação de Agendamento</title>
+
+  <!-- Pixel Meta -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;
+      n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '651941351340071');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=651941351340071&noscript=1"/>
+  </noscript>
+
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #0D47A1; /* azul médico */
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    /* Botão (opcional) */
+    a.whatsapp {
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    a.whatsapp:hover {
+      background-color: #1ebe57;
+    }
+  </style>
+
+  <script>
+    // Redirecionamento automático para WhatsApp após 1 segundo
+    setTimeout(function() {
+      window.location.href = "https://wa.me/5519978085538?text=acabei%20de%20agendar%20o%20hor%C3%A1rio%20do%20meu%20bate%20papo%20sobre%20tirzepatida.";
+    }, 1000);
+  </script>
+</head>
+<body>
+  <h1>✅ Horário Agendado!</h1>
+  <p>Você será redirecionado automaticamente para o WhatsApp para confirmar seu bate-papo.</p>
+  <a class="whatsapp" href="https://wa.me/5519978085538?text=acabei%20de%20agendar%20o%20hor%C3%A1rio%20do%20meu%20bate%20papo%20sobre%20tirzepatida." target="_blank">
+    Confirmar no WhatsApp
+  </a>
+</body>
+</html>
